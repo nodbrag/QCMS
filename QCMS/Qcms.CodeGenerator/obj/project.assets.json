@@ -10070,11 +10070,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\study\\NetCore\\QCMS\\Qcms.CodeGenerator\\Qcms.CodeGenerator.csproj",
+      "projectUniqueName": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.CodeGenerator\\Qcms.CodeGenerator.csproj",
       "projectName": "Qcms.CodeGenerator",
-      "projectPath": "F:\\study\\NetCore\\QCMS\\Qcms.CodeGenerator\\Qcms.CodeGenerator.csproj",
+      "projectPath": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.CodeGenerator\\Qcms.CodeGenerator.csproj",
       "packagesPath": "C:\\Users\\nodbr\\.nuget\\packages\\",
-      "outputPath": "F:\\study\\NetCore\\QCMS\\Qcms.CodeGenerator\\obj\\",
+      "outputPath": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.CodeGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10093,8 +10093,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "F:\\study\\NetCore\\QCMS\\Qcms.Core\\Qcms.Core.csproj": {
-              "projectPath": "F:\\study\\NetCore\\QCMS\\Qcms.Core\\Qcms.Core.csproj"
+            "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.Core\\Qcms.Core.csproj": {
+              "projectPath": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.Core\\Qcms.Core.csproj"
             }
           }
         }

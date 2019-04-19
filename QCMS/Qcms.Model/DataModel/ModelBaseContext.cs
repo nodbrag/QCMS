@@ -72,7 +72,7 @@ namespace Qcms.Model.DataModel
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=114.80.118.175,15433;Initial Catalog=EnergyV2;Persist Security Info=True;User ID=emsa;Password=emsa#PW1368DB");
+                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=EnergyV2;Persist Security Info=True;User ID=sa;Password=123456");
             }
         }
 

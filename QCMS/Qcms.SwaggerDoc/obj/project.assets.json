@@ -12136,11 +12136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\study\\NetCore\\QCMS\\Qcms.SwaggerDoc\\Qcms.SwaggerDoc.csproj",
+      "projectUniqueName": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.SwaggerDoc\\Qcms.SwaggerDoc.csproj",
       "projectName": "Qcms.SwaggerDoc",
-      "projectPath": "F:\\study\\NetCore\\QCMS\\Qcms.SwaggerDoc\\Qcms.SwaggerDoc.csproj",
+      "projectPath": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.SwaggerDoc\\Qcms.SwaggerDoc.csproj",
       "packagesPath": "C:\\Users\\nodbr\\.nuget\\packages\\",
-      "outputPath": "F:\\study\\NetCore\\QCMS\\Qcms.SwaggerDoc\\obj\\",
+      "outputPath": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.SwaggerDoc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

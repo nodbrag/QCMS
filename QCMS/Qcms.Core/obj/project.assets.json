@@ -7998,11 +7998,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\study\\NetCore\\QCMS\\Qcms.Core\\Qcms.Core.csproj",
+      "projectUniqueName": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.Core\\Qcms.Core.csproj",
       "projectName": "Qcms.Core",
-      "projectPath": "F:\\study\\NetCore\\QCMS\\Qcms.Core\\Qcms.Core.csproj",
+      "projectPath": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.Core\\Qcms.Core.csproj",
       "packagesPath": "C:\\Users\\nodbr\\.nuget\\packages\\",
-      "outputPath": "F:\\study\\NetCore\\QCMS\\Qcms.Core\\obj\\",
+      "outputPath": "F:\\study\\NetCore\\WebApiTemplate\\QCMS\\Qcms.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
