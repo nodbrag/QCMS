@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.2\WebApi.xml</DocumentationFile>
+    <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="Autofac.Configuration" Version="4.1.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.4.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.0.165" />
+    <PackageReference Include="MiniProfiler.EntityFrameworkCore" Version="4.0.165" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Qcms.Core\Qcms.Core.csproj" />
+    <ProjectReference Include="..\Qcms.IRepository\Qcms.IRepository.csproj" />
+    <ProjectReference Include="..\Qcms.IService\Qcms.IService.csproj" />
+    <ProjectReference Include="..\Qcms.Model\Qcms.Model.csproj" />
+    <ProjectReference Include="..\Qcms.Repository\Qcms.Repository.csproj" />
+    <ProjectReference Include="..\Qcms.Service\Qcms.Service.csproj" />
+  </ItemGroup>
+
+</Project>

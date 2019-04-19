@@ -1,0 +1,14 @@
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\obj\Debug\netcoreapp2.2\Qcms.CodeGenerator.csprojAssemblyReference.cache
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\obj\Debug\netcoreapp2.2\Qcms.CodeGenerator.csproj.CoreCompileInputs.cache
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\obj\Debug\netcoreapp2.2\Qcms.CodeGenerator.AssemblyInfoInputs.cache
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\obj\Debug\netcoreapp2.2\Qcms.CodeGenerator.AssemblyInfo.cs
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\bin\Debug\netcoreapp2.2\Qcms.CodeGenerator.deps.json
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\bin\Debug\netcoreapp2.2\Qcms.CodeGenerator.runtimeconfig.json
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\bin\Debug\netcoreapp2.2\Qcms.CodeGenerator.runtimeconfig.dev.json
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\bin\Debug\netcoreapp2.2\Qcms.CodeGenerator.dll
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\bin\Debug\netcoreapp2.2\Qcms.Core.dll
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\bin\Debug\netcoreapp2.2\Qcms.Core.pdb
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\obj\Debug\netcoreapp2.2\Qcms.CodeGenerator.csproj.CopyComplete
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\bin\Debug\netcoreapp2.2\Qcms.CodeGenerator.pdb
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\obj\Debug\netcoreapp2.2\Qcms.CodeGenerator.dll
+F:\study\NetCore\QCMS\Qcms.CodeGenerator\obj\Debug\netcoreapp2.2\Qcms.CodeGenerator.pdb

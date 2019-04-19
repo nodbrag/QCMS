@@ -1,0 +1,34 @@
+﻿/**
+*┌──────────────────────────────────────────────────────────────┐
+*│　描    述：{Comment}                                                    
+*│　作    者：{Author}                                            
+*│　版    本：1.0    模板代码自动生成                                                
+*│　创建时间：{GeneratorTime}                             
+*└──────────────────────────────────────────────────────────────┘
+*┌──────────────────────────────────────────────────────────────┐
+*│　命名空间： {ServicesNamespace}                                  
+*│　类    名： {ModelName}Service                                    
+*└──────────────────────────────────────────────────────────────┘
+*/
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Qcms.Model;
+using Qcms.IRepository;
+using Qcms.IService;
+using System.Threading.Tasks;
+using Qcms.Model.DataModel;
+
+namespace {ServicesNamespace}
+{
+    public class {ModelName}Service:BaseService<{ModelName}>,I{ModelName}Service
+    {
+        private readonly I{ModelName}Repository _repository;
+
+        public {ModelName}Service(I{ModelName}Repository repository) :base(repository)
+        {
+            _repository = repository;
+        }
+
+    }
+}

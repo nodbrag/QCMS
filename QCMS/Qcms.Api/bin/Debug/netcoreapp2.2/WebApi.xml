@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Qcms.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Qcms.Api.Controllers.BaseController`3.Get(System.Int32)">
+            <summary>
+            根据id获取当前记录信息
+            </summary>
+            <param name="id">主键编号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Qcms.Api.Controllers.BaseController`3.GetAll">
+            <summary>
+            获取当前记录列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Qcms.Api.Controllers.BaseController`3.GetAllFliter(Qcms.Core.Dtos.FiterConditionBase{`1})">
+            <summary>
+            获取过滤条件获取用户记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Qcms.Api.Controllers.BaseController`3.Create(`0)">
+            <summary>
+            新增记录
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Qcms.Api.Controllers.BaseController`3.Update(`0)">
+            <summary>
+            修改记录
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Qcms.Api.Controllers.BaseController`3.Delete(System.Int32)">
+            <summary>
+            删除记录
+            </summary>
+            <param name="id">主键编号</param>
+            <returns></returns>
+        </member>
+        <member name="T:Qcms.Api.Controllers.EnergyController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Qcms.Api.Controllers.GaugeController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Qcms.Api.Controllers.UsersController">
+            <summary>
+            用户模块接口
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.Controllers.UsersController.GetUserRole">
+            <summary>
+            获取用户角色
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="F:Qcms.Api.CoreBuilder.CorsPolicyType.AllRequests">
+            <summary>
+            允许所有请求
+            </summary>
+        </member>
+        <member name="F:Qcms.Api.CoreBuilder.CorsPolicyType.LimitRequests">
+            <summary>
+            策略限制。
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreConfigurationBuilder.UseRazorEngine">
+            <summary>
+            MVC模板引擎配置
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreConfigurationBuilder.UseErrorHanle">
+            <summary>
+            全局错误拦截器配置
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreConfigurationBuilder.UseSwagger">
+            <summary>
+            Swagger配置
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreConfigurationBuilder.UseMiniProfiler">
+            <summary>
+            MiniProfiler 配置
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreConfigurationBuilder.UseAuth">
+            <summary>
+            认证配置
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreConfigurationBuilder.UseCors(Qcms.Api.CoreBuilder.CorsPolicyType)">
+            <summary>
+            跨域配置
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreConfigurationBuilder.UseOther">
+            <summary>
+            其他配置
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddDbcontext">
+            <summary>
+            添加EF数据库上下文
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddMvcExtensions">
+            <summary>
+            添加Mvc
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddCache">
+            <summary>
+            添加缓存
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddLog">
+            <summary>
+            添加日志
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddAutoMapper">
+            <summary>
+            添加AutoMapper自动对象映射组件
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddCors">
+            <summary>
+            添加Cors跨域
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddSwaggerGenerator">
+            <summary>
+            添加Swagger生成器
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddMiniProfiler">
+            <summary>
+            新增miniProfiler性能监测
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddJwtAuth">
+            <summary>
+            添加Jwt授权
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddHttpContext">
+            <summary>
+            添加自定义Http上下文
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddAppService">
+            <summary>
+            新增应用服务
+            </summary>
+        </member>
+        <member name="M:Qcms.Api.CoreBuilder.ICoreServiceBuilder.AddFluentValidationService">
+            <summary>
+            新增数据有效性验证
+            </summary>
+        </member>
+    </members>
+</doc>

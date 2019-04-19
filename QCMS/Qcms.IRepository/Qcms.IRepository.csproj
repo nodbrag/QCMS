@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Qcms.Core\Qcms.Core.csproj" />
+    <ProjectReference Include="..\Qcms.Model\Qcms.Model.csproj" />
+  </ItemGroup>
+
+</Project>

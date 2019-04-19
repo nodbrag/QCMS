@@ -1,0 +1,53 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\swagger\404.html" />
+    <None Include="wwwroot\swagger\config\defaults.json.guide.js" />
+    <None Include="wwwroot\swagger\dist\91baf32caa045b74d22e.worker.js" />
+    <None Include="wwwroot\swagger\dist\91baf32caa045b74d22e.worker.js.map" />
+    <None Include="wwwroot\swagger\dist\a21d96a6391866c78f2c.worker.js" />
+    <None Include="wwwroot\swagger\dist\a21d96a6391866c78f2c.worker.js.map" />
+    <None Include="wwwroot\swagger\dist\bundle.js" />
+    <None Include="wwwroot\swagger\dist\bundle.js.map" />
+    <None Include="wwwroot\swagger\dist\styles.css" />
+    <None Include="wwwroot\swagger\dist\styles.css.map" />
+    <None Include="wwwroot\swagger\images\close.svg" />
+    <None Include="wwwroot\swagger\images\edit-pencil.svg" />
+    <None Include="wwwroot\swagger\images\favicon-16x16.png" />
+    <None Include="wwwroot\swagger\images\favicon-32x32.png" />
+    <None Include="wwwroot\swagger\images\favicon.ico" />
+    <None Include="wwwroot\swagger\images\jump-icon.svg" />
+    <None Include="wwwroot\swagger\images\overlay-arrow.svg" />
+    <None Include="wwwroot\swagger\images\swagger-logo.png" />
+    <None Include="wwwroot\swagger\index.html" />
+    <None Include="wwwroot\swagger\LICENSE" />
+    <None Include="wwwroot\swagger\README.md" />
+    <None Include="wwwroot\swagger\robots.txt" />
+    <None Include="wwwroot\swagger\scripts\branding.js" />
+    <None Include="wwwroot\swagger\spec-files\basic-auth.yaml" />
+    <None Include="wwwroot\swagger\spec-files\default.yaml" />
+    <None Include="wwwroot\swagger\spec-files\echo.yaml" />
+    <None Include="wwwroot\swagger\spec-files\guide.yaml" />
+    <None Include="wwwroot\swagger\spec-files\heroku-pets.yaml" />
+    <None Include="wwwroot\swagger\spec-files\instagram.yaml" />
+    <None Include="wwwroot\swagger\spec-files\minimal.yaml" />
+    <None Include="wwwroot\swagger\spec-files\petstore_full.yaml" />
+    <None Include="wwwroot\swagger\spec-files\petstore_simple.yaml" />
+    <None Include="wwwroot\swagger\spec-files\security.yaml" />
+    <None Include="wwwroot\swagger\spec-files\twitter.yaml" />
+    <None Include="wwwroot\swagger\start.bat" />
+    <None Include="wwwroot\swagger\styles\branding.css" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

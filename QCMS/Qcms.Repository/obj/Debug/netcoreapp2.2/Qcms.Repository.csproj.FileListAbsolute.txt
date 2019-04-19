@@ -1,0 +1,16 @@
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.Repository.deps.json
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.Repository.dll
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.Repository.pdb
+F:\study\NetCore\QCMS\Qcms.Repository\obj\Debug\netcoreapp2.2\Qcms.Repository.csprojAssemblyReference.cache
+F:\study\NetCore\QCMS\Qcms.Repository\obj\Debug\netcoreapp2.2\Qcms.Repository.csproj.CoreCompileInputs.cache
+F:\study\NetCore\QCMS\Qcms.Repository\obj\Debug\netcoreapp2.2\Qcms.Repository.AssemblyInfoInputs.cache
+F:\study\NetCore\QCMS\Qcms.Repository\obj\Debug\netcoreapp2.2\Qcms.Repository.AssemblyInfo.cs
+F:\study\NetCore\QCMS\Qcms.Repository\obj\Debug\netcoreapp2.2\Qcms.Repository.dll
+F:\study\NetCore\QCMS\Qcms.Repository\obj\Debug\netcoreapp2.2\Qcms.Repository.pdb
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.Core.dll
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.IRepository.dll
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.Model.dll
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.Core.pdb
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.IRepository.pdb
+F:\study\NetCore\QCMS\Qcms.Repository\bin\Debug\netcoreapp2.2\Qcms.Model.pdb
+F:\study\NetCore\QCMS\Qcms.Repository\obj\Debug\netcoreapp2.2\Qcms.Repository.csproj.CopyComplete
