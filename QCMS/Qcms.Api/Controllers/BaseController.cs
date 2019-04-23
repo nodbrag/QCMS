@@ -9,6 +9,7 @@ using Qcms.IService;
 using Qcms.Core.Entities;
 using Qcms.Core.Extensions;
 using System.Reflection;
+using Swashbuckle.AspNetCore.Annotations;
 
 
 namespace Qcms.Api.Controllers
@@ -29,6 +30,7 @@ namespace Qcms.Api.Controllers
         /// <param name="id">主键编号</param>
         /// <returns></returns>
         [HttpGet]
+        //[SwaggerResponse(200, type: typeof(IExecResult<>))]
         public async Task<IExecResult<TDtoEntity>> Get(int id)
         {
            

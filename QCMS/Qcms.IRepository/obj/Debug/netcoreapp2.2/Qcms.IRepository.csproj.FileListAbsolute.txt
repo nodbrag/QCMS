@@ -12,3 +12,17 @@ F:\study\NetCore\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.Core.pdb
 F:\study\NetCore\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.csproj.CopyComplete
 F:\study\NetCore\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.Model.dll
 F:\study\NetCore\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.Model.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.IRepository.deps.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.IRepository.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.IRepository.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.Core.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.Model.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.Core.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\bin\Debug\netcoreapp2.2\Qcms.Model.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.csprojAssemblyReference.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.csproj.CoreCompileInputs.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.AssemblyInfoInputs.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.AssemblyInfo.cs
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.csproj.CopyComplete
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.IRepository\obj\Debug\netcoreapp2.2\Qcms.IRepository.pdb

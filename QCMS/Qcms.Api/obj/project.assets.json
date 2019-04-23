@@ -3276,6 +3276,18 @@
           "lib/netstandard2.0/Swashbuckle.AspNetCore.dll": {}
         }
       },
+      "Swashbuckle.AspNetCore.Annotations/4.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.SwaggerGen": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.dll": {}
+        }
+      },
       "Swashbuckle.AspNetCore.Swagger/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -8560,6 +8572,19 @@
         "swashbuckle.aspnetcore.nuspec"
       ]
     },
+    "Swashbuckle.AspNetCore.Annotations/4.0.1": {
+      "sha512": "Eke+OE1T+ogLsSmVFdhFPaVlsCBvGfkO/qpOgmD8pBns5vUMaI3pHjKq4sg9FfK8lLK/cxFbLx8Q+/iGogJ+Xw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.annotations/4.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Annotations.xml",
+        "swashbuckle.aspnetcore.annotations.4.0.1.nupkg.sha512",
+        "swashbuckle.aspnetcore.annotations.nuspec"
+      ]
+    },
     "Swashbuckle.AspNetCore.Swagger/4.0.1": {
       "sha512": "rqzS3vHrjz+tR5j0nZOKZyaMTDfLGbVYkwMq205aYuGbsiGwbOlNU0Q8lq4Q0ptQPMKVkUf8XouCIdJ3qpK17w==",
       "type": "package",
@@ -13406,7 +13431,8 @@
       "Qcms.IService >= 1.0.0",
       "Qcms.Model >= 1.0.0",
       "Qcms.Repository >= 1.0.0",
-      "Qcms.Service >= 1.0.0"
+      "Qcms.Service >= 1.0.0",
+      "Swashbuckle.AspNetCore.Annotations >= 4.0.1"
     ]
   },
   "packageFolders": {
@@ -13509,6 +13535,10 @@
           "MiniProfiler.EntityFrameworkCore": {
             "target": "Package",
             "version": "[4.0.165, )"
+          },
+          "Swashbuckle.AspNetCore.Annotations": {
+            "target": "Package",
+            "version": "[4.0.1, )"
           }
         },
         "imports": [
