@@ -41,7 +41,7 @@
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "https://registry.npmjs.org/swagger-editor/-/swagger-editor-2.10.4.tgz",
+  "_resolved": "",
   "_shasum": "cc4dade86259bc52e40d91e9f42ff565ece978ab",
   "_shrinkwrap": null,
   "_spec": "swagger-editor",
@@ -131,7 +131,7 @@
   "directories": {},
   "dist": {
     "shasum": "cc4dade86259bc52e40d91e9f42ff565ece978ab",
-    "tarball": "https://registry.npmjs.org/swagger-editor/-/swagger-editor-2.10.4.tgz"
+    "tarball": ""
   },
   "engines": {
     "node": ">=5.8.0"
@@ -149,7 +149,7 @@
     "README.md"
   ],
   "gitHead": "5fbffc77b643d4459ce310c1e2c150e8ab2fd93d",
-  "homepage": "https://github.com/swagger-api/swagger-editor",
+  "homepage": "",
   "license": "Apache-2.0",
   "maintainers": [
     {
@@ -170,7 +170,7 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "github",
-    "url": "git+https://github.com/swagger-api/swagger-editor.git"
+    "url": ""
   },
   "scripts": {
     "build": "webpack --production --hide-modules --stats=errors-only",
