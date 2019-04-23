@@ -23,5 +23,8 @@
  
  8.自动定义代码生成器 有现成模板 
  
+ <img src="https://github.com/nodbrag/QCMS/blob/master/Doc/readmeimg/codetemplate.png">
+ 
  9.导出文档如下：
+ 
  <img src="https://github.com/nodbrag/QCMS/blob/master/Doc/readmeimg/apidoc.png">
