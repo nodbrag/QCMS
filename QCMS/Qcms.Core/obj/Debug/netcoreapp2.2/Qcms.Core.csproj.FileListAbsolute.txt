@@ -16,3 +16,5 @@ F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core\obj\Debug\netcoreapp2.2\Qcms.Core
 F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core\obj\Debug\netcoreapp2.2\Qcms.Core.AssemblyInfo.cs
 F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core\obj\Debug\netcoreapp2.2\Qcms.Core.dll
 F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core\obj\Debug\netcoreapp2.2\Qcms.Core.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core\bin\Debug\netcoreapp2.2\Qcms.Core.runtimeconfig.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core\bin\Debug\netcoreapp2.2\Qcms.Core.runtimeconfig.dev.json
