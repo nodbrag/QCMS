@@ -172,18 +172,6 @@
     "type": "github",
     "url": ""
   },
-  "scripts": {
-    "build": "webpack --production --hide-modules --stats=errors-only",
-    "clean": "rm -rf dist/**",
-    "e2e-test": "protractor test/e2e/protractor.config.js",
-    "gh-pages": "./gh-pages.sh",
-    "lint": "eslint . --format 'node_modules/eslint-friendly-formatter'",
-    "prebuild": "npm run clean",
-    "pree2e-test": "webdriver-manager update",
-    "start": "node server.js",
-    "test": "npm run unit-test && npm run e2e-test",
-    "unit-test": "karma start test/unit/karma.conf.js --single-run=true",
-    "unit-test-watch": "karma start test/unit/karma.conf.js"
-  },
+  
   "version": "2.10.4"
 }
