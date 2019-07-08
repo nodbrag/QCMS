@@ -1,5 +1,5 @@
 # QCMS
- 基于.net core2.2 webapi +Efcore+swagger 
+ 基于.net core2.2 webapi +Efcore+swagger  传统数据驱动-事务脚本模式架构
  
 一.开发架构分为 UI 1.webApi层  2.服务层 3.数据仓储层，4.模型层 5.基础建设层 
 
