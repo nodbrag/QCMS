@@ -542,6 +542,46 @@ namespace Qcms.Core.NPOI
         //    }
         //} 
         #endregion
+
+        #region 获取样式 
+        public static ICellStyle getStyle(IWorkbook workbook, bool isBold, bool isDiagonalLine, short fontcolor, short fontsize, short backgroudcolor)
+        {
+
+            ICellStyle style = workbook.CreateCellStyle();//创建样式对象
+            style.Alignment = HorizontalAlignment.Center;
+            style.VerticalAlignment = VerticalAlignment.Center;
+            style.WrapText = true; //设置换行前
+            IFont font = workbook.CreateFont(); //创建一个字体样式对象
+            font.FontName = "宋体"; //和excel里面的字体对应
+                                  //font.IsItalic = true; //斜体
+
+            if (fontsize > 0)
+            {
+                font.FontHeightInPoints = fontsize;
+            }
+            if (fontcolor > 0)
+            {
+                font.Color = fontcolor;  //new NPOI.HSSF.Util.HSSFColor.SkyBlue().Indexed
+            }
+            if (isBold)
+            {
+                font.Boldweight = (short)FontBoldWeight.Bold;//字体加粗
+            }
+            style.SetFont(font); //将字体样式赋给样式对象
+            if (isDiagonalLine)
+            {
+                style.BorderDiagonalLineStyle = BorderStyle.Dashed;
+                style.BorderDiagonal = BorderDiagonal.Backward;
+                style.BorderDiagonalColor = IndexedColors.Black.Index;
+            }
+            if (backgroudcolor > 0)
+            {
+                style.FillForegroundColor = backgroudcolor; //具体数字代表的颜色看NPOI颜色对照表
+                style.FillPattern = FillPattern.SolidForeground;
+            }
+            return style;
+        }
+        #endregion
     }
 
 

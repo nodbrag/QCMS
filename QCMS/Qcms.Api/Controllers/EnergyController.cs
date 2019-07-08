@@ -45,11 +45,7 @@ namespace Qcms.Api.Controllers
         {
             _service = service;
         }
-        /// <summary>
-        /// 订单导出
-        /// </summary>
-        /// <param name="model"></param>
-        /// <returns></returns>
+        
         [HttpGet]
         public async Task<IActionResult> DownloadOrders()
         {
