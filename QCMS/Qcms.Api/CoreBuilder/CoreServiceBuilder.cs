@@ -164,14 +164,15 @@ namespace Qcms.Api.CoreBuilder
 
         public void AddAppService()
         {
+            _services.AddScoped<Qcms.Repository.Uow.EFUnitOfWork, Qcms.Repository.Uow.EFUnitOfWork>();
             _services.RegisterAssembly("Qcms.IRepository", "Qcms.Repository");
             _services.RegisterAssembly("Qcms.IService", "Qcms.Service");
            
+
         }
         public void AddFluentValidationService()
         {
-           
-            //注册所有验证类 当个添加例如：services.AddSingleton<IValidator<EMSApi.Dots.UserDots.UserModification>, Validators.UserValidator>();
+            //注册所有验证类 单个添加例如：services.AddSingleton<IValidator<EMSApi.Dots.UserDots.UserModification>, Validators.UserValidator>();
             var types = Assembly.GetExecutingAssembly().GetTypes().Where(p => p.BaseType != null && p.BaseType.GetInterfaces().Any(x => x == typeof(IValidator)));
             foreach (var type in types)
             {

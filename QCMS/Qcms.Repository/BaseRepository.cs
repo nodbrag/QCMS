@@ -5,7 +5,6 @@ using System.Linq.Expressions;
 using System.Linq.Dynamic.Core;
 using System.Text;
 using System.Threading.Tasks;
-
 using Microsoft.EntityFrameworkCore;
 using Qcms.Core.Extensions;
 using Qcms.Core.Entities;
@@ -16,14 +15,25 @@ namespace Qcms.Repository
 {
     public class BaseRepository<TEntity> : IRepository<TEntity,Int32> where TEntity : AggregateRoot, new()
     {
-        protected readonly ModelBaseContext _context;
-        
+        //protected readonly ModelBaseContext _context;
+
+        //public virtual DbSet<TEntity> Table { get { return _context.Set<TEntity>(); } }
+
+        //public BaseRepository(ModelBaseContext context)
+        //{
+
+        //    _context = context;
+        //}
+
+        protected ModelBaseContext _context { get { return (ModelBaseContext)_unitOfWork.context; } }
+
         public virtual DbSet<TEntity> Table { get { return _context.Set<TEntity>(); } }
 
-        public BaseRepository(ModelBaseContext context)
+        public Uow.IEFUnitOfWork _unitOfWork { get; set; }
+
+        public BaseRepository(Uow.EFUnitOfWork unitOfWork)
         {
-           
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
 
         #region 获得实体的列表

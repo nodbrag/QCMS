@@ -12,3 +12,17 @@ F:\study\NetCore\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.As
 F:\study\NetCore\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.RazorTargetAssemblyInfo.cache
 F:\study\NetCore\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.dll
 F:\study\NetCore\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\bin\Debug\netcoreapp2.2\Qcms.SwaggerDoc.deps.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\bin\Debug\netcoreapp2.2\Qcms.SwaggerDoc.runtimeconfig.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\bin\Debug\netcoreapp2.2\Qcms.SwaggerDoc.runtimeconfig.dev.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\bin\Debug\netcoreapp2.2\Qcms.SwaggerDoc.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\bin\Debug\netcoreapp2.2\Qcms.SwaggerDoc.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.csprojAssemblyReference.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.csproj.CoreCompileInputs.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.RazorAssemblyInfo.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.RazorAssemblyInfo.cs
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.AssemblyInfoInputs.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.AssemblyInfo.cs
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.RazorTargetAssemblyInfo.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.SwaggerDoc\obj\Debug\netcoreapp2.2\Qcms.SwaggerDoc.pdb

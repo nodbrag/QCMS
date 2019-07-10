@@ -20,8 +20,6 @@ namespace Qcms.Core.Swagger
             int sw = context.ApiDescription.RelativePath.LastIndexOf("/");
             string name = context.ApiDescription.RelativePath.Substring(sw+1, context.ApiDescription.RelativePath.Length - sw-1);
             operation.OperationId = name;
-
-           
             var attrs = context.ApiDescription.ActionDescriptor.AttributeRouteInfo;
 
             //先判断是否是匿名访问,

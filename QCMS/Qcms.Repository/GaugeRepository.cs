@@ -24,7 +24,7 @@ namespace Qcms.Repository
 {
     public class GaugeRepository: BaseRepository<Gauge>,IGaugeRepository
     {
-        public GaugeRepository(ModelBaseContext context):base(context)
+        public GaugeRepository(Uow.EFUnitOfWork unitOfWork) :base(unitOfWork)
         {
 
            

@@ -10,7 +10,7 @@ namespace Qcms.Repository
 {
     public class UserRepository: BaseRepository<User>,IUserRepository
     {
-        public UserRepository(ModelBaseContext context):base(context)
+        public UserRepository(Uow.EFUnitOfWork unitOfWork) :base(unitOfWork)
         {
 
            

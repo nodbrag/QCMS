@@ -49,13 +49,6 @@
             
             </summary>
         </member>
-        <member name="M:Qcms.Api.Controllers.EnergyController.DownloadOrders">
-            <summary>
-            订单导出
-            </summary>
-            <param name="model"></param>
-            <returns></returns>
-        </member>
         <member name="T:Qcms.Api.Controllers.GaugeController">
             <summary>
             

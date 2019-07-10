@@ -25,7 +25,7 @@ namespace Qcms.Repository
 {
     public class EnergyRepository: BaseRepository<Energy>,IEnergyRepository
     {
-        public EnergyRepository(ModelBaseContext context):base(context)
+        public EnergyRepository(Uow.EFUnitOfWork unitOfWork):base(unitOfWork)
         {
 
            
