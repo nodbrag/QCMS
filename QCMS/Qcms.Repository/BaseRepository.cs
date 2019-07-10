@@ -15,26 +15,28 @@ namespace Qcms.Repository
 {
     public class BaseRepository<TEntity> : IRepository<TEntity,Int32> where TEntity : AggregateRoot, new()
     {
-        //protected readonly ModelBaseContext _context;
+        public DbContext context { get { return _context; } }
 
-        //public virtual DbSet<TEntity> Table { get { return _context.Set<TEntity>(); } }
-
-        //public BaseRepository(ModelBaseContext context)
-        //{
-
-        //    _context = context;
-        //}
-
-        protected ModelBaseContext _context { get { return (ModelBaseContext)_unitOfWork.context; } }
+        protected readonly ModelBaseContext _context;
 
         public virtual DbSet<TEntity> Table { get { return _context.Set<TEntity>(); } }
 
-        public Uow.IEFUnitOfWork _unitOfWork { get; set; }
-
-        public BaseRepository(Uow.EFUnitOfWork unitOfWork)
+        public BaseRepository(ModelBaseContext context)
         {
-            _unitOfWork = unitOfWork;
+
+            _context = context;
         }
+
+        //protected ModelBaseContext _context { get { return (ModelBaseContext)_unitOfWork.context; } }
+
+        //public virtual DbSet<TEntity> Table { get { return _context.Set<TEntity>(); } }
+
+        //public Uow.IEFUnitOfWork _unitOfWork { get; set; }
+
+        //public BaseRepository(Uow.EFUnitOfWork unitOfWork)
+        //{
+        //    _unitOfWork = unitOfWork;
+        //}
 
         #region 获得实体的列表
         public IQueryable<TEntity> GetAll()

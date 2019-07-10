@@ -44,7 +44,7 @@ namespace Qcms.Core.Dtos
         /// <summary>
         /// 是否操作成功
         /// </summary>
-        public bool Success { get { return Status == OpResultStatus.Success; } }
+        public override bool Success { get { return Status == OpResultStatus.Success; } }
 
         /// <summary>
         /// 返回消息字段
@@ -114,7 +114,7 @@ namespace Qcms.Core.Dtos
         /// <summary>
         /// 是否操作成功
         /// </summary>
-        public bool Success { get { return Status == OpResultStatus.Success; } }
+        public override bool Success { get { return Status == OpResultStatus.Success; } }
 
         /// <summary>
         /// 返回消息字段

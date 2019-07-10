@@ -31,7 +31,8 @@ namespace Qcms.Service
         public EnergyService(IEnergyRepository repository) :base(repository)
         {
             _repository = repository;
+            
         }
-
+        
     }
 }

@@ -17,7 +17,8 @@ namespace Qcms.Service
     public class BaseService<TEntity> : IService<TEntity> where TEntity : AggregateRoot, new()
     {
         public IRepository<TEntity,Int32> _baseRepository;
-
+         
+        
         public BaseService(IRepository<TEntity,Int32> baseRepository)
         {
             this._baseRepository = baseRepository;

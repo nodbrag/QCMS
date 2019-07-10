@@ -66,7 +66,7 @@ namespace Qcms.Model.DtoModel
         }
         public class EnergyFilterDto
         {
-           
+            public String EnergyName { get; set; }
         }
     }
 }

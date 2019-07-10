@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 using System.Linq;
 using System.Linq.Expressions;
 using Qcms.Core.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Qcms.IRepository
 {
     public interface IRepository<TEntity, TPrimaryKey> where TEntity : IEntity, new()
     {
+        DbContext context { get; }
 
         #region 获得实体的列表
 

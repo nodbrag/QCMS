@@ -10,10 +10,13 @@ namespace Qcms.Repository
 {
     public class UserRepository: BaseRepository<User>,IUserRepository
     {
-        public UserRepository(Uow.EFUnitOfWork unitOfWork) :base(unitOfWork)
+        //public UserRepository(Uow.EFUnitOfWork unitOfWork) :base(unitOfWork)
+        //{
+        //}
+        public UserRepository(ModelBaseContext context) : base(context)
         {
 
-           
+
         }
 
         public async Task<User> GetRoleUser()
