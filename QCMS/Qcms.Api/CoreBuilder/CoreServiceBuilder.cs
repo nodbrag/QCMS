@@ -151,6 +151,8 @@ namespace Qcms.Api.CoreBuilder
                 //true表示生成控制器描述，包含true的IncludeXmlComments重载应放在最后，或者两句都使用true
                 c.IncludeXmlComments(xmlPath, true);
                 c.OperationFilter<Qcms.Core.Swagger.SwaggerOperationFilter>(); // 新增swagger过滤
+               // c.DescribeAllEnumsAsStrings();//显示枚举值名称
+                //sg.DescribeStringEnumsInCamelCase();//驼峰命名法显示枚举值名称
             });
         }
 

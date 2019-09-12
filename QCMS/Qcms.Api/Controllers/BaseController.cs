@@ -11,7 +11,6 @@ using Qcms.Core.Extensions;
 using System.Reflection;
 using Swashbuckle.AspNetCore.Annotations;
 
-
 namespace Qcms.Api.Controllers
 {
    
