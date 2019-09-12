@@ -37,6 +37,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.test", "7.test", "{A68C68
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qcms.Redis.Tests", "Qcms.Redis.Tests\Qcms.Redis.Tests.csproj", "{1B4B6BD8-B6D0-437C-AB26-CC4A854F7A9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Qcms.Core.Tests", "Qcms.Core.Tests\Qcms.Core.Tests.csproj", "{A3EA1680-498C-41DF-922C-D6B6E2886BD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{1B4B6BD8-B6D0-437C-AB26-CC4A854F7A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B4B6BD8-B6D0-437C-AB26-CC4A854F7A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B4B6BD8-B6D0-437C-AB26-CC4A854F7A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EA1680-498C-41DF-922C-D6B6E2886BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EA1680-498C-41DF-922C-D6B6E2886BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EA1680-498C-41DF-922C-D6B6E2886BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EA1680-498C-41DF-922C-D6B6E2886BD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +104,7 @@ Global
 		{372E6739-322D-46C0-BC96-B505590418D1} = {66CE05B8-D6E6-4AFF-BDAE-5EA61E9ACE05}
 		{60718C05-E069-4BB4-A093-2718169685F1} = {66CE05B8-D6E6-4AFF-BDAE-5EA61E9ACE05}
 		{1B4B6BD8-B6D0-437C-AB26-CC4A854F7A9E} = {A68C680D-5BEE-42DB-96F7-5F114F0673CB}
+		{A3EA1680-498C-41DF-922C-D6B6E2886BD3} = {A68C680D-5BEE-42DB-96F7-5F114F0673CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D153BDF2-6B32-4C31-B607-4CF5A04B1347}

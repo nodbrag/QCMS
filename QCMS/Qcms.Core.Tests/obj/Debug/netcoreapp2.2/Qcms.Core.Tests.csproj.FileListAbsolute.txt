@@ -1,0 +1,17 @@
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\Qcms.Core.Tests.deps.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\Qcms.Core.Tests.runtimeconfig.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\Qcms.Core.Tests.runtimeconfig.dev.json
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\Qcms.Core.Tests.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\Qcms.Core.Tests.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\Qcms.Core.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\bin\Debug\netcoreapp2.2\Qcms.Core.pdb
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\obj\Debug\netcoreapp2.2\Qcms.Core.Tests.csprojAssemblyReference.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\obj\Debug\netcoreapp2.2\Qcms.Core.Tests.csproj.CoreCompileInputs.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\obj\Debug\netcoreapp2.2\Qcms.Core.Tests.AssemblyInfoInputs.cache
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\obj\Debug\netcoreapp2.2\Qcms.Core.Tests.AssemblyInfo.cs
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\obj\Debug\netcoreapp2.2\Qcms.Core.Tests.csproj.CopyComplete
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\obj\Debug\netcoreapp2.2\Qcms.Core.Tests.dll
+F:\study\NetCore\WebApiTemplate\QCMS\Qcms.Core.Tests\obj\Debug\netcoreapp2.2\Qcms.Core.Tests.pdb
